@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-import App from './App copy';
+import App from './App-copy';
 // import StarRating from './StarRating';
 
 // function Test() {
@@ -19,7 +19,7 @@ import App from './App copy';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.strictMode>
+  <React.StrictMode>
     
     <App />
 
@@ -35,5 +35,5 @@ root.render(
        */
 
     }
-  </React.strictMode>
+  </React.StrictMode>
 );
